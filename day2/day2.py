@@ -22,6 +22,7 @@ class Line:
 if __name__ == "__main__":
     f = open("passwords.txt","r")
     data = f.readlines()
+    f.close()
     lines = []
     for l in data:
         lines.append(Line(l))

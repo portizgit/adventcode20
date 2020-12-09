@@ -4,6 +4,7 @@ import numpy
 f = open("toboggan.txt","r")
 data = [line.strip() for line in f]
 
+f.close()
 
 width = len(data[0])
 final_forest = len(data)
